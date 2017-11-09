@@ -22,7 +22,7 @@ class Hero(object):
         self.life = 3
         
     def anim(self):
-        self.image = self.images[(self.index)/20%len(self.images)]
+        self.image = self.images[int((self.index)/20%len(self.images))] 
         self.index += 1
             
     def move(self,mx,my):

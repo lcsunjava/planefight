@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+encoding/bullet.py=utf8
+encoding/enemy.py=utf8
+encoding/hero.py=utf8
 encoding/myplane.py=utf8
+encoding/planepanel.py=utf8
